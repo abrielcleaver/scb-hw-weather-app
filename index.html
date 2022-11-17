@@ -10,14 +10,19 @@
     h1 {
       text-align: center;
       color: #1a64d6;
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 34px;
+      margin: 0;
+      line-height: 48px;
     } 
 
     h2 {
       text-align: center;
-      font-weight: normal;
+      font-weight: 400;
       font-size: 34px;
-      font-family: Arial, Helvetica, sans-serif;
+      line-height: 48px;
+      font-family: Helvetica, Arial, sans-serif;
+      margin: 0;
     }
 
     ul {
@@ -35,7 +40,7 @@
     }
 
     li:hover {
-      background-color: rgba(255, 255, 207, 0.639);
+      background-color: #FEFBEF;
     }
 
     h3 {
@@ -52,27 +57,38 @@
       display: grid;
       text-align: center;
       font-family:Arial, Helvetica, sans-serif;
-      font-size: 15px;
+      font-size: 16px;
+      line-height: 22px;
       background-color: #1a64d6;
       color: white;
-      padding: 20px;
-      margin: auto   ;
-      border: 1px solid;
+      padding: 16px 24px;
+      margin: 20px auto;
+      border: 1px #1a64d6 solid;
       border-radius: 50px;
+      box-shadow: 0px 8px 8px 0px rgba(207, 207, 207, 0.311);
     }
+
+    button:hover {
+      background-color: white;
+      color: #1a64d6;
+      cursor: pointer;
+    }
+
 
   </style>
 </head>
 <body>
-  <h1>🌤</h1>
-  <h1>Currently 21&deg; in Tokyo
+  <h1>
+    🌤 
+    <br>
+    Currently 21&deg; in Tokyo
     <br>
   </h1>
-  <h2>13&deg;/<strong>23&deg;</strong></h2>
+  <h2>13&deg; / <strong>23&deg;</strong></h2>
 
   <ul>
     <li>
-      <h3>🌧 Tomorrow</h3>
+      <h3>🌧Tomorrow</h3>
       <p>10&deg; /
         <strong>22&deg;</strong></p>
     </li>
@@ -90,7 +106,7 @@
     </li>
   </ul>
   
-  <button>Change City</button>
+  <button>Change city</button>
   
   <p>Coded by Abriel Cleaver</p>
 </body>
